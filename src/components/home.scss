@@ -6,7 +6,7 @@
 .row{
     background-color: black;
     padding: 1rem;
-    justify-content: center;
+    // justify-content: center;
     >h2{
         margin: 0.3rem;
         font-weight: 400;
@@ -16,6 +16,7 @@
         padding: 1rem;
         display: flex;
         flex-direction: space-evenly;
+        justify-content: center;
         overflow-x: auto;
     }
 }
@@ -27,5 +28,18 @@
     transition: transform 0.7s;
     &:hover{
         transform: translateY(-10px) scale(1.05) ;
+    }
+}
+
+.genreBox{
+    overflow-x: auto;
+    display: flex;
+    height:120px;
+    background-color: black;
+    >a{
+        color:black;
+        background-color: white;
+        padding: 1rem;
+        margin: 1rem;
     }
 }
