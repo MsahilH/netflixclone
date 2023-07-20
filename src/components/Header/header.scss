@@ -1,0 +1,41 @@
+.header{
+    background-color: black;
+    color:whitesmoke;
+    padding:-5px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+
+    >img{
+        width:10%;
+        margin :10px;
+    
+    }
+    >div{
+        border: 1px solid red;
+        padding-left: 20%;
+        margin: 20px;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        >a{
+            margin:0vmax 2vmax;
+            // background-color: yellow;
+        }
+       
+
+    }
+    >svg{
+        height: 20px;
+        width: 100px;
+        cursor: pointer;
+
+        &:hover{
+            color: rgb(188, 187, 187);
+        }
+        
+    }
+    
+}
+
